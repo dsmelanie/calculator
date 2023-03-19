@@ -11,11 +11,11 @@ class Calculator {
       this.calculator.appendChild(this.display);
   
       const buttons = [
-        ["+", "-", "*", "/"],
-        ["7", "8", "9",],
-        ["4", "5", "6"],
-        ["1", "2", "3", ],
-        ["0", ".", "C", "="]
+        ["7", "8", "9","+"],
+        ["4", "5", "6", "-"],
+        ["1", "2", "3", "*"],
+        ["0", ".", "C", "/"],
+        ["="]
       ];
   
       buttons.forEach((row) => {
@@ -27,6 +27,12 @@ class Calculator {
           const button = document.createElement("button");
           button.innerHTML = buttonLabel;
           buttonRow.appendChild(button);
+
+          if (["+", "-", "*", "/"].includes(buttonLabel)) {
+            button.classList.add("btn-operator");
+          } else if (buttonLabel === "=") {
+            button.classList.add("btn-equal");
+          }
   
           button.addEventListener("click", () => {
             if (buttonLabel === "C") {

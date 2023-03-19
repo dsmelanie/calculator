@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1e7fc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #724C9D;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-image: url(../images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+b {
+    color: #3f2859;
+}
+
+a {
+    text-decoration: none;
+    color: #3f2859;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #724C9D;
+}
+
+p {
+    margin-top: -50px !important;
+    font-size: 15px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3f2859;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+  
+.display {
+    border-radius: 5px;
+    width: 19.5rem;
+    height: 4rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+ 
+button.btn-equal {
+    width: 20.8rem;
+    margin: 2px;
+    background-color: #9d79c6;
+    color: white;
+    font-size: 30px;
+}
+
+button.btn-operator {
+    background-color: #9d79c6;
+    color: white;
+}
+
+button {
+    width: 5rem;
+    height: 4rem;
+    border-radius: 3px;
+    border: none;
+    margin: 2px;
+    font-size: 18px;
+    background-color: #e6d3fd;
+    color: #3f2859;
+    cursor: pointer;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #724C9D;
+    color: white;
+}
