@@ -17,5 +17,5 @@
 
 ## 🖋️ | Author
 
-- GitHub - [@rdsmelanie](https://github.com/rdsmelanie)
+- GitHub - [@dsmelanie](https://github.com/dsmelanie)
 
