@@ -3,7 +3,7 @@
 
 ## 🖱️ | Link
 
-- Live Site URL : [Click](https://rdsmelanie.github.io/calculator)
+- Live Site URL : [Click](https://dsmelanie.github.io/calculator)
 
 ---
 
